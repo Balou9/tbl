@@ -1,12 +1,12 @@
 var tape = require('tape')
-var table = require('./index')
-var array = ['Mikey', 'Gani', 'Gani', 'Louis', 'Gani', '419', '419', 'Louis',
+var tbl = require('./index')
+var arr = ['Mikey', 'Gani', 'Gani', 'Louis', 'Gani', '419', '419', 'Louis',
              'Mikey', 'Gani', 'Louis', 'Gani', '419', '419']
 
-var tabarr = table(array)
+var tabObj = tbl(arr)
 
 tape('Output is', function (t) {
-  t.ok(tabarr, 'is true')
+  t.ok(tabObj, 'is true')
   t.end()
 })
 
@@ -18,6 +18,6 @@ tape('Sum of object values equals array length', function (t) {
     }
     return result
   }
-  t.ok(sum(Object.values(tabarr)) == array.length, 'is true')
+  t.ok(sum(Object.values(tabObj)) == arr.length, 'is true')
   t.end()
 })

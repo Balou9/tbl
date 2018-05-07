@@ -1,5 +1,5 @@
 {
-  "name": "tab-arr",
+  "name": "tbl",
   "version": "0.0.0",
   "description": "Table arrays for frequency observation",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Balou9/tab-arr.git"
+    "url": "git+https://github.com/Balou9/tbl.git"
   },
   "keywords": [
     "table"
@@ -16,9 +16,9 @@
   "author": "Emmanuel Owosekun",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Balou9/tab-arr/issues"
+    "url": "https://github.com/Balou9/tbl/issues"
   },
-  "homepage": "https://github.com/Balou9/tab-arr#readme",
+  "homepage": "https://github.com/Balou9/tbl#readme",
   "devDependencies": {
     "tape": "^4.9.0"
   }

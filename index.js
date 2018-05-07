@@ -1,9 +1,9 @@
-function table (arr, callback) {
-  var tabarr = arr.reduce(function (tabObj, val) {
-  typeof tabObj[val] == 'undefined' ? tabObj[val] = 1 : tabObj[val] += 1
-  return tabObj
+function tbl (arr) {
+  var tabObj = arr.reduce(function createTabley(obj, val) {
+  typeof obj[val] == 'undefined' ? obj[val] = 1 : obj[val] += 1
+  return obj
   }, {})
-  return tabarr
+  return tabObj
 }
 
-module.exports = table
+module.exports = tbl
