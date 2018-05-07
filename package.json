@@ -1,0 +1,25 @@
+{
+  "name": "tab-arr",
+  "version": "0.0.0",
+  "description": "Table arrays for frequency observation",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balou9/tab-arr.git"
+  },
+  "keywords": [
+    "table"
+  ],
+  "author": "Emmanuel Owosekun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Balou9/tab-arr/issues"
+  },
+  "homepage": "https://github.com/Balou9/tab-arr#readme",
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}
